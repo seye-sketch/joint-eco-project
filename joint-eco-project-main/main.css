@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+box-sizing: content-box;
+
+  
+}
+
+<!-- main head styling-->
+#header{
+   position: fixed;
+    
+}
+.mjlogo{
+    border-radius:100px ;
+position: absolute;
+margin-left: 40px;
+margin-top: 10px;
+}
+.headlist:hover{
+    border-bottom:2px solid rgba(0, 110, 255, 0.397);
+    color: rgba(0, 110, 255, 0.397);
+}
+li{
+    
+    display: inline;
+    list-style: none;
+    margin-right: 40px;
+   cursor: pointer;
+   margin-left: 10px;
+}
+ul{
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.searchbar{
+    margin-left: 10px;
+    margin-right: 200px;
+    border: 3px solid #d4a85c;
+   border-color:#d4a85c;
+    border-radius: 5px;
+    padding: 1px;
+}
+.firstslide{
+    transition: 2s;
+    position: absolute;
+    margin-top: 150px;
+margin-left: 50px;
+color: white;
+font-size: xx-large;
+font-weight: bolder;
+   font-family:sans-serif;
+}
+.firstslide-text2{
+    position: absolute;
+    margin-top: 300px;
+margin-left: 100px;
+color: white;
+font-size: 100px;
+font-weight: bolder;
+font-family:sans-serif;
+}
+.firstslide-text3{
+    position: absolute;
+    margin-top: 400px;
+margin-left: 100px;
+color: white;
+font-size:100px;
+font-weight: bolder;
+font-family:sans-serif;
+}
+     /* imageslide part */
+.background-image{
+    position: relative;
+   width:1000px;
+    margin: 0;
+background: red;
+}
+.slides{
+    display:flex;
+      overflow:hidden ;
+ margin-top: 130px;
+   margin-left:30px ;
+   width:1300px;
+   transition: 2s;
+   position: absolute;
+}
+.slide{
+    transition: 2s;
+   height: 530px;
+   behavior: "smooth";
+}
+.slides input{
+    display:none;
+}
+.man-nav{
+    position:absolute;
+    margin-top: 430px;
+    margin-left: 45px;
+}
+.btn1{
+    border-radius: 50%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+    border: 2px solid gold;
+    cursor: pointer;
+    transition: 2s;
+}
+.btn1:not(:last-child){
+       margin-right: 1200px;
+}
+.btn1:hover{
+    background: rgba(0, 110, 255, 0.397);
+}
+
+#r1:checked~.first{
+     margin-left:-0%;
+}
+#r2:checked~.first{
+    margin-left:-100%;
+}
+/* secondpage */
+.second-page{
+    margin-top: 700px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.second-page img{
+     width: 400px;
+     height:300px;
+    margin-top: -20px;
+    float:right;
+    margin-right: 100px;
+}
+.secondpagehead{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    width: fit-content;
+    border: 3px solid gold;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 300px;
+    margin-top:100px;
+}
+.Lorem{
+    width: 400PX;
+    text-align:left ;
+    margin-left: 270px;
+    margin-top: 30px;
+    line-height: 2em;
+}
+  /* imageslide part end*/
+  /* thirdpart */
+.third-part{
+    background-color: #ece8e1;
+    border: 1px solid #c4871d;
+    height: 1500px;
+    width: 95%;
+    margin-left:30px;
+    overflow: hidden;
+}
+.third-head h3{
+    text-align: center;
+     color: #0a53a6;
+     font-family:sans-serif;
+     margin-top: 30px;
+}
+.third-head h4{
+    font-family:sans-serif;
+        margin-top: 20px;
+       font-size: 50px;
+text-align: center;
+font-weight: bolder;
+}
+.third-head p{
+           margin-top: 20px;
+text-align: center;
+}
+
+.image ul{
+    
+  width: 1400px;
+ align-content: center;
+    display: flex; 
+ 
+  margin-left: 10px;
+  
+}
+.image img{
+     width: 420px;
+     height: 300px;
+}
+.image img:hover{
+    width: 440px;
+    height: 320px;
+transition: 1s;
+behavior: "smooth";
+}
+.imagetext ul{
+     display: flex;
+      margin-left:170px;
+      margin-top: -150px;
+}
+.imagetext p{
+    margin-right: 280px;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+}/* thirdpart  end*/
+/* .topline{
+       width: 270px;
+       position: absolute;
+       margin-top: 1420px;
+    color: white;
+       margin-left: 50px;
+       border: 2px solid white;
+       border-radius: 10px;
+}
+.sideline{
+    height: 270px;
+    position: absolute;
+    margin-top: 1420px;
+ color: white;
+    margin-left: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+} */
+/* i gave up line part */
+
+.roompart{
+    margin-top: 300px;
+    text-align: center;
+    color: #0a53a6;
+}
+.roompart h4{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.roompart p{
+    text-align: center;
+    margin-left: 300px;
+    color: black;
+    margin-top: 30px;
+}
+.Oimg{
+    margin-top: 200px;
+
+}
+/*Room slide part*/
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 200px;
+    }
+.slidess{
+    width: 100%;
+    height: 200px;
+    display: flex;}
+    
+.slidess input{
+    display: none;
+}
+.slidee{
+    width:100%;
+    transition: 2s;
+}
+.slidee img{
+    width: 1000px;
+    height: 500px;
+    position: sticky;
+
+}
+/*
+.slidee p{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    position: absolute;
+  confusion part  
+}
+*/
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: 2510px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.manual-btn{
+    border: 2px solid #c97836;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+    background-color: #e2e2e2;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+    
+}
+.manual-btn:hover{
+    background: rgb(0, 17, 255);
+
+}
+#radio1:checked~ .first{
+    margin-left: 0;
+}
+#radio2:checked~ .first{
+    margin-left: -100%;
+}
+#radio3:checked~ .first{
+    margin-left: -200%;
+}
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 10px;
+    transition: 1s;
+}
+.navigation-auto div{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+#radio1:checked~ .navigation-auto .auto-btn1{
+    background:#0a53a6;
+}
+#radio2:checked~ .navigation-auto .auto-btn2{
+    background:#0a53a6;
+}
+#radio3:checked~ .navigation-auto .auto-btn{
+    background:#0a53a6;
+}
+.book-now{
+    background: #e08932;
+    border: 0;
+    width: 150px;
+    height: 30px;
+    color: #ffeddf;
+    margin-left: 520px;
+    margin-top: 70px;
+}
+/*MJ700 WATER PART*/
+.water{
+    background-color: #f7fbfb;
+    border: 1px solid #81c0ec;
+    height: 1600px;
+    width: 95%;
+    margin-left:30px;
+    overflow: hidden;
+    text-align: center;
+}
+.Mj700waters h3{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.hydrating img{
+    width: 1300px;
+    height: 500px;
+}
+.hydrating p{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    display: flex;
+    margin-left:270px;
+    margin-top: -350px;
+}
+.products{
+    margin-left: 1in;
+    margin-top: 3in;
+}
+.products h3{
+    margin-left: -50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    color: rgb(72, 6, 255);
+}
+.products img{
+    margin: 20px;
+    float: left;
+    width: 550px;
+    margin-left: auto;
+    height: 400px;
+    border-radius: 5px;
+}
+.products h4{
+    margin-left: 1px;
+    font-size: 40px;
+    margin: 170px;
+    margin-top: 0px;
+    color: rgb(2, 2, 2);
+    font-weight: bolder;
+    float: left;
+}
+.get-urs {
+    color: #ffb775;
+    margin-bottom: 5in;
+    margin-right: 60px;
+    width: 200px;
+    height: 40px;
+    background-color: #c97836;
+    border: 0ch;
+}
